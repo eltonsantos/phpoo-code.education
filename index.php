@@ -19,11 +19,11 @@
                     <th>Endereço</th>
                 </thead>
                 <tbody>
-                    <?php for($cliente) { ?>
+                    <?php for($i = 0; $clientes[$i] > 0; $i++) { ?>
                     <tr>
-                        <td><?php $clientes[$i]->nome; ?></td>
-                        <td><?php $clientes[$i]->cpf; ?></td>
-                        <td><?php $clientes[$i]->endereco; ?></td>
+                        <td><?php echo $clientes[$i]->nome; ?></td>
+                        <td><?php echo $clientes[$i]->cpf; ?></td>
+                        <td><?php echo $clientes[$i]->endereco; ?></td>
                     </tr>
                     <?php } ?>
                 </tbody>
