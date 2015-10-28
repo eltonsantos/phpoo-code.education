@@ -7,6 +7,8 @@ class Cliente
     public $endereco;
 }
 
+// é preciso criar uma nova classe ??
+
 $cliente1 = new Cliente();
 $cliente1->nome = "Elton";
 $cliente1->cpf = "111111111";
