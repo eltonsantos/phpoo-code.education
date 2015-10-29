@@ -10,6 +10,7 @@
     <body>
 
         <?php require_once "Cliente.php"; ?>
+        <?php require_once "array_clientes.php"; ?>
         <div class="container">
             <h1>Hello World</h1>
             <table class="table table-bordered table-condensed table-hover">
